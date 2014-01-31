@@ -1,0 +1,5 @@
+"domain","mac","displayname","username","secret","vmsecret","accountcode","server","DID","brand","product","model","template"
+"abc.com","mac","displayname","user1","secret","vmsecret","accountcode","server","DID","brand","product","model","customer1.tt"
+"abc.com","mac","displayname","user2","secret","vmsecret","accountcode","server","DID","brand","product","model"
+"xyz.net","mac","displayname","user3","secret","vmsecret","accountcode","server","DID","brand","product","model","customer2.tt"
+"xyz.net","mac","displayname","user4","secret","vmsecret","accountcode","server","DID","brand","product","model",""

@@ -1,0 +1,17 @@
+<include>
+  <user id="[% username %]">
+    <params>
+      <param name="password" value="[% secret %]"/>
+      <param name="vm-password" value="[% vmsecret %]"/>
+    </params>
+    <variables>
+      <variable name="toll_allow" value="domestic,international,local"/>
+      <variable name="accountcode" value="[% accountcode %]"/>
+      <variable name="user_context" value="default"/>
+      <variable name="effective_caller_id_name" value="[% displayname %]"/>
+      <variable name="effective_caller_id_number" value="[% username %]"/>
+      <variable name="outbound_caller_id_name" value="[% displayname %]"/>
+      <variable name="outbound_caller_id_number" value="[% DID %]"/>
+    </variables>
+  </user>
+</include>
